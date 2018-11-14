@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label for="input_gifs">Buscador de Gifs</label>
+                <input type="text" class="form-control" name="input_gifs" id="input_gifs" aria-describedby="helpId"
+                    placeholder="Search...">
+                <small id="helpId" class="form-text text-muted">Escriba que gif quiere buscar</small>
+            </div>
+            <button type="button" id="search" class="btn btn-primary">Realizar busqueda</button>
+        </form>
+        <div class="results" id="results">
+        </div>
+    </div>
+	<button id="button">TOP</button>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "name": "vuejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "taskr"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.1.3",
+    "bootstrap": "^4.1.3",
+    "es6-promise": "^4.2.5",
+    "jquery": "^3.3.1",
+    "smoothscroll-polyfill": "^0.4.3",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/preset-env": "^7.1.5",
+    "@taskr/browserify": "^1.1.0",
+    "@taskr/clear": "^1.1.0",
+    "@taskr/esnext": "^1.1.0",
+    "@taskr/postcss": "^1.1.2",
+    "@taskr/sass": "^1.1.0",
+    "@taskr/watch": "^1.1.0",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.23.5",
+    "connect-history-api-fallback": "^1.5.0",
+    "eslint": "^5.9.0",
+    "eslint-plugin-jquery": "^1.3.2",
+    "taskr": "^1.1.0",
+    "taskr-autoprefixer": "^1.0.0"
+  }
+}
